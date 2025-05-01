@@ -6,9 +6,8 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from test.TestUtils import TestUtils
 from CourierTrackingSystem import list_all_shipments, check_shipment_status, count_shipments_by_status
-from DonationManagementSystem import save_static_donations, check_frank_white_donated, calculate_total_donations
-from PharmacyManagementSystem import count_number_of_unique_medicines, calculate_total_stock_value, find_medicine_with_lowest_stock
-
+from DonationManagementSystem import *
+from PharmacyManagementSystem import *
 
 class TestManagementSystems(unittest.TestCase):
     def setUp(self):
