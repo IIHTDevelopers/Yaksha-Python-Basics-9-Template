@@ -53,23 +53,23 @@ class TestManagementSystems(unittest.TestCase):
             print(f"TestCheckShipmentStatus = Failed | Exception: {e}")
 
     # ========== Donation Management System Tests ==========
-    def test_check_frank_white_donated(self):
+    def test_check_amount_donated(self):
         """
         Test case for check_frank_white_donated() function.
         """
         try:
-            result = check_frank_white_donated()
-            expected_result = True
+            result = check_amount_donated("Frank White")
+            expected_result = 120
             
             if result == expected_result:
-                self.test_obj.yakshaAssert("TestCheckFrankWhiteDonated", True, "functional")
-                print("TestCheckFrankWhiteDonated = Passed")
+                self.test_obj.yakshaAssert("TestCheckAmountDonated", True, "functional")
+                print("TestCheckAmountDonated = Passed")
             else:
-                self.test_obj.yakshaAssert("TestCheckFrankWhiteDonated", False, "functional")
-                print("TestCheckFrankWhiteDonated = Failed")
+                self.test_obj.yakshaAssert("TestCheckAmountDonated", False, "functional")
+                print("TestCheckAmountDonated = Failed")
         except Exception as e:
-            self.test_obj.yakshaAssert("TestCheckFrankWhiteDonated", False, "functional")
-            print(f"TestCheckFrankWhiteDonated = Failed | Exception: {e}")
+            self.test_obj.yakshaAssert("TestCheckAmountDonated", False, "functional")
+            print(f"TestCheckAmountDonated = Failed | Exception: {e}")
 
     def test_calculate_total_donations(self):
         """
