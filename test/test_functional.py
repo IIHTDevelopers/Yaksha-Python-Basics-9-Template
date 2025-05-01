@@ -5,7 +5,7 @@ import os
 # Adjusting the path to import TestUtils and the required modules
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from test.TestUtils import TestUtils
-from CourierTrackingSystem import list_all_shipments, check_shipment_status, count_shipments_by_status
+from CourierTrackingSystem import *
 from DonationManagementSystem import *
 from PharmacyManagementSystem import *
 
