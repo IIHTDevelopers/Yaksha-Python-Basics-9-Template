@@ -11,8 +11,8 @@ medicines = {
 # Function 1: Count Number of Unique Medicines
 def count_number_of_unique_medicines():
     """
-    Counts the number of unique medicines available.
-    TODO: Implement logic to count unique medicine names.
+    Counts the number of unique medicines available as per category
+    TODO: Implement logic to count
     """
     pass
 
