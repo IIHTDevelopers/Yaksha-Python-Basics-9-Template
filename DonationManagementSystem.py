@@ -14,9 +14,9 @@ donations = {
 
 
 # Function 1: Check Donated amount
-def check_frank_white_donated(donor_name):
+def check_amount_donated(donor_name):
     """
-    Checks if donor name passed as parameter has made any donations and return the value
+    Checks if donor name passed as parameter has made any donations and return the value of donation
     
     """
     pass
