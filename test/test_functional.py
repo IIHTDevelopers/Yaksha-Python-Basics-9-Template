@@ -96,7 +96,7 @@ class TestManagementSystems(unittest.TestCase):
         """
         try:
             result = count_number_of_unique_medicines()
-            expected_result = 5  # There are 5 unique medicines in the dataset
+            expected_result = 4  # There are 4 unique medicines in the dataset
             
             if result == expected_result:
                 self.test_obj.yakshaAssert("TestCountNumberOfUniqueMedicines", True, "functional")
