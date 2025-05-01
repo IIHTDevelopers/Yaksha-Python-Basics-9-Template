@@ -36,7 +36,7 @@ shipments = {
 # Function 1: List All Shipments
 def list_all_shipments():
     """
-    Lists all shipments with their details.
+    Return all shipments with their details.
     TODO: Implement logic to gather and return all shipment details.
     """
     pass
@@ -55,7 +55,7 @@ def check_shipment_status(tracking_number):
 def count_shipments_by_status():
     """
     Counts the number of shipments for each status category.
-    TODO: Implement logic to count shipments based on their statuses.
+    TODO: Implement logic to count shipments based on their statuses and return
     """
     pass
 
