@@ -51,13 +51,7 @@ def check_shipment_status(tracking_number):
     pass
 
 
-# Function 3: Count Shipments by Status
-def count_shipments_by_status():
-    """
-    Counts the number of shipments for each status category.
-    TODO: Implement logic to count shipments based on their statuses and return
-    """
-    pass
+
 
 
 # Main Function to Execute and Display Results
