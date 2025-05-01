@@ -1,7 +1,6 @@
 import os
 
-# File name for storing donations
-donation_file = "donations.txt"
+
 
 # Static Dataset of Donations
 donations = {
@@ -13,25 +12,17 @@ donations = {
 }
 
 
-# Function 1: Save Donations to File
-def save_static_donations():
-    """
-    Saves the static dataset of donations to the file.
-    TODO: Implement logic to save donations in a structured format.
-    """
-    pass
 
-
-# Function 2: Check If Frank White Donated
-def check_frank_white_donated():
+# Function 1: Check Donated amount
+def check_frank_white_donated(donor_name):
     """
-    Checks if Frank White has made any donations.
-    TODO: Implement logic to search for Frank White in the dataset.
+    Checks if donor name passed as parameter has made any donations and return the value
+    
     """
     pass
 
 
-# Function 3: Calculate Total Donations
+# Function 2: Calculate Total Donations
 def calculate_total_donations():
     """
     Calculates the total amount donated by all donors.
